@@ -4,6 +4,7 @@
   "description": "A REST API for PDF generation",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/ztoben/pdf-api/issues"
   },
-  "homepage": "https://github.com/ztoben/pdf-api#readme"
+  "homepage": "https://github.com/ztoben/pdf-api#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "html-to-pdf": "^0.1.11"
+  }
 }
